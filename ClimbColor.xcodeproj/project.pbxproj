@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000001 /* ClimbColorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000001 /* ClimbColorApp.swift */; };
+		A00000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000002 /* ContentView.swift */; };
+		A00000000000000000000003 /* HoldModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000003 /* HoldModels.swift */; };
+		A00000000000000000000005 /* YOLOHoldDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000005 /* YOLOHoldDetector.swift */; };
+		A00000000000000000000006 /* ColorAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000006 /* ColorAnalyzer.swift */; };
+		A00000000000000000000007 /* OverlayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000007 /* OverlayRenderer.swift */; };
+		A00000000000000000000008 /* ResultStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000008 /* ResultStore.swift */; };
+		A00000000000000000000009 /* PhotoLibrarySaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000009 /* PhotoLibrarySaver.swift */; };
+		A0000000000000000000000A /* PixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000A /* PixelBuffer.swift */; };
+		A0000000000000000000000C /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000C /* CameraPicker.swift */; };
+		A0000000000000000000000D /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000D /* HistoryView.swift */; };
+		A0000000000000000000000E /* ContourBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000E /* ContourBuilder.swift */; };
+		A0000000000000000000000F /* WallCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000F /* WallCanvasView.swift */; };
+		A00000000000000000000010 /* WallWorkspaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000010 /* WallWorkspaceView.swift */; };
+		A00000000000000000000011 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000011 /* PhotoPicker.swift */; };
+		A00000000000000000000012 /* PhotoFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000012 /* PhotoFiles.swift */; };
+		A00000000000000000000013 /* ZoomableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000013 /* ZoomableImageView.swift */; };
+		A00000000000000000000014 /* WallLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000014 /* WallLibrary.swift */; };
+		A00000000000000000000015 /* PlaceServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000015 /* PlaceServices.swift */; };
+		A00000000000000000000016 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000016 /* LibraryView.swift */; };
+		A00000000000000000000017 /* ManualHoldFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000017 /* ManualHoldFactory.swift */; };
+		A000000000000000000000F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B000000000000000000000F0 /* Assets.xcassets */; };
+		A000000000000000000000F4 /* UltralyticsYOLO in Frameworks */ = {isa = PBXBuildFile; productRef = F00000000000000000000002 /* UltralyticsYOLO */; };
+		A000000000000000000000F5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B000000000000000000000F5 /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B00000000000000000000001 /* ClimbColorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbColorApp.swift; sourceTree = "<group>"; };
+		B00000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B00000000000000000000003 /* HoldModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldModels.swift; sourceTree = "<group>"; };
+		B00000000000000000000005 /* YOLOHoldDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOHoldDetector.swift; sourceTree = "<group>"; };
+		B00000000000000000000006 /* ColorAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAnalyzer.swift; sourceTree = "<group>"; };
+		B00000000000000000000007 /* OverlayRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayRenderer.swift; sourceTree = "<group>"; };
+		B00000000000000000000008 /* ResultStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultStore.swift; sourceTree = "<group>"; };
+		B00000000000000000000009 /* PhotoLibrarySaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibrarySaver.swift; sourceTree = "<group>"; };
+		B0000000000000000000000A /* PixelBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelBuffer.swift; sourceTree = "<group>"; };
+		B0000000000000000000000C /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+		B0000000000000000000000D /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		B0000000000000000000000E /* ContourBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContourBuilder.swift; sourceTree = "<group>"; };
+		B0000000000000000000000F /* WallCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallCanvasView.swift; sourceTree = "<group>"; };
+		B00000000000000000000010 /* WallWorkspaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallWorkspaceView.swift; sourceTree = "<group>"; };
+		B00000000000000000000011 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		B00000000000000000000012 /* PhotoFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFiles.swift; sourceTree = "<group>"; };
+		B00000000000000000000013 /* ZoomableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableImageView.swift; sourceTree = "<group>"; };
+		B00000000000000000000014 /* WallLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallLibrary.swift; sourceTree = "<group>"; };
+		B00000000000000000000015 /* PlaceServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceServices.swift; sourceTree = "<group>"; };
+		B00000000000000000000016 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		B00000000000000000000017 /* ManualHoldFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualHoldFactory.swift; sourceTree = "<group>"; };
+		B000000000000000000000F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B000000000000000000000F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B000000000000000000000F2 /* README_MODEL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README_MODEL.txt; sourceTree = "<group>"; };
+		B000000000000000000000F3 /* ClimbColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimbColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B000000000000000000000F5 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A000000000000000000000F4 /* UltralyticsYOLO in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D00000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				D00000000000000000000002 /* ClimbColor */,
+				B000000000000000000000F1 /* README.md */,
+				D00000000000000000000007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D00000000000000000000002 /* ClimbColor */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000001 /* ClimbColorApp.swift */,
+				B00000000000000000000002 /* ContentView.swift */,
+				D00000000000000000000003 /* Models */,
+				D00000000000000000000004 /* Services */,
+				D00000000000000000000005 /* Views */,
+				D00000000000000000000006 /* Utilities */,
+				B000000000000000000000F0 /* Assets.xcassets */,
+				B000000000000000000000F5 /* PrivacyInfo.xcprivacy */,
+			);
+			path = ClimbColor;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000003 /* HoldModels.swift */,
+				B000000000000000000000F2 /* README_MODEL.txt */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000004 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000017 /* ManualHoldFactory.swift */,
+				B00000000000000000000015 /* PlaceServices.swift */,
+				B00000000000000000000014 /* WallLibrary.swift */,
+				B00000000000000000000012 /* PhotoFiles.swift */,
+				B0000000000000000000000E /* ContourBuilder.swift */,
+				B00000000000000000000005 /* YOLOHoldDetector.swift */,
+				B00000000000000000000006 /* ColorAnalyzer.swift */,
+				B00000000000000000000007 /* OverlayRenderer.swift */,
+				B00000000000000000000008 /* ResultStore.swift */,
+				B00000000000000000000009 /* PhotoLibrarySaver.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000016 /* LibraryView.swift */,
+				B00000000000000000000013 /* ZoomableImageView.swift */,
+				B00000000000000000000011 /* PhotoPicker.swift */,
+				B00000000000000000000010 /* WallWorkspaceView.swift */,
+				B0000000000000000000000F /* WallCanvasView.swift */,
+				B0000000000000000000000C /* CameraPicker.swift */,
+				B0000000000000000000000D /* HistoryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000006 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000000A /* PixelBuffer.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B000000000000000000000F3 /* ClimbColor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00000000000000000000001 /* ClimbColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = H00000000000000000000001 /* Build configuration list for PBXNativeTarget "ClimbColor" */;
+			buildPhases = (
+				C00000000000000000000002 /* Sources */,
+				C00000000000000000000001 /* Frameworks */,
+				C00000000000000000000003 /* Resources */,
+				C00000000000000000000004 /* Bundle ClimbHoldSeg Core ML model */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClimbColor;
+			packageProductDependencies = (
+				F00000000000000000000002 /* UltralyticsYOLO */,
+			);
+			productName = ClimbColor;
+			productReference = B000000000000000000000F3 /* ClimbColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00000000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					E00000000000000000000001 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = H00000000000000000000000 /* Build configuration list for PBXProject "ClimbColor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D00000000000000000000001;
+			packageReferences = (
+				F00000000000000000000001 /* XCRemoteSwiftPackageReference "yolo-ios-app" */,
+			);
+			productRefGroup = D00000000000000000000007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00000000000000000000001 /* ClimbColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C00000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A000000000000000000000F0 /* Assets.xcassets in Resources */,
+				A000000000000000000000F5 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C00000000000000000000004 /* Bundle ClimbHoldSeg Core ML model */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle ClimbHoldSeg Core ML model";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "/bin/bash \"$PROJECT_DIR/tools/compile_model_for_xcode.sh\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C00000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000001 /* ClimbColorApp.swift in Sources */,
+				A00000000000000000000002 /* ContentView.swift in Sources */,
+				A00000000000000000000003 /* HoldModels.swift in Sources */,
+				A00000000000000000000005 /* YOLOHoldDetector.swift in Sources */,
+				A00000000000000000000006 /* ColorAnalyzer.swift in Sources */,
+				A00000000000000000000007 /* OverlayRenderer.swift in Sources */,
+				A00000000000000000000008 /* ResultStore.swift in Sources */,
+				A00000000000000000000009 /* PhotoLibrarySaver.swift in Sources */,
+				A0000000000000000000000A /* PixelBuffer.swift in Sources */,
+				A0000000000000000000000C /* CameraPicker.swift in Sources */,
+				A0000000000000000000000D /* HistoryView.swift in Sources */,
+				A0000000000000000000000E /* ContourBuilder.swift in Sources */,
+				A0000000000000000000000F /* WallCanvasView.swift in Sources */,
+				A00000000000000000000010 /* WallWorkspaceView.swift in Sources */,
+				A00000000000000000000011 /* PhotoPicker.swift in Sources */,
+				A00000000000000000000012 /* PhotoFiles.swift in Sources */,
+				A00000000000000000000013 /* ZoomableImageView.swift in Sources */,
+				A00000000000000000000014 /* WallLibrary.swift in Sources */,
+				A00000000000000000000015 /* PlaceServices.swift in Sources */,
+				A00000000000000000000016 /* LibraryView.swift in Sources */,
+				A00000000000000000000017 /* ManualHoldFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		G00000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		G00000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		G00000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 5Y62DWN7RS;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ClimbColor;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_NSCameraUsageDescription = "ClimbColor uses the camera to photograph climbing walls for on-device hold detection.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Photos you take in ClimbColor are tagged with your location so your walls are grouped by gym. Imported photos use their own location data.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ClimbColor saves your analyzed climbing-wall result images to Photos when you choose Save to Photos.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziqingshi.ClimbColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		G00000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 5Y62DWN7RS;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ClimbColor;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_NSCameraUsageDescription = "ClimbColor uses the camera to photograph climbing walls for on-device hold detection.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Photos you take in ClimbColor are tagged with your location so your walls are grouped by gym. Imported photos use their own location data.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ClimbColor saves your analyzed climbing-wall result images to Photos when you choose Save to Photos.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ziqingshi.ClimbColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		H00000000000000000000000 /* Build configuration list for PBXProject "ClimbColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G00000000000000000000001 /* Debug */,
+				G00000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		H00000000000000000000001 /* Build configuration list for PBXNativeTarget "ClimbColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G00000000000000000000003 /* Debug */,
+				G00000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F00000000000000000000001 /* XCRemoteSwiftPackageReference "yolo-ios-app" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ultralytics/yolo-ios-app.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.9.15;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F00000000000000000000002 /* UltralyticsYOLO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F00000000000000000000001 /* XCRemoteSwiftPackageReference "yolo-ios-app" */;
+			productName = UltralyticsYOLO;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E00000000000000000000000 /* Project object */;
+}
